@@ -1,18 +1,20 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang='fr'>
 	<head>
-        <title>PHP ex2.7 condition</title>
+        <meta charset='UTF-8'>
+        <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+        <title>PHP ex 2.7 condition</title>
     </head>
     <body >
         <?php
         $isOk=TRUE;
         if( $isOk == FALSE)
         {
-            echo ("C'est pas bon !!!");
+            echo ('C\'est pas bon !!!');
         }
         else
         {
-            echo ("C'est OK");
+            echo ('C\'est OK');
         }
        ?>
     </body>
